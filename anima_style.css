@@ -1,0 +1,61 @@
+body {
+    background-color: #1F51FF;
+}
+
+
+/* Nav Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+  }
+
+li {
+  float: right;
+}
+
+li a {
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  margin-top: 23px;
+  margin-left: 15px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+a {
+  padding: 13px;
+}
+
+li a:hover {
+    background-color: #3b669b;
+}
+
+.nav_img {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin-left: 0;
+    border-radius: 100px;
+}
+
+/* animation 1 */
+
+.anima-1 img {
+    width: 100%;
+    height: 600px;
+    align-items: center;
+}
+
+/* animation: 3s ease-in 1s infinite reverse both  
+running slidein;
+
+animation-name, animation-duration, 
+animation-timing-function, animation-delay, 
+animation-iteration-count, animation-direction, 
+animation-fill-mode, and animation-play-state. */
