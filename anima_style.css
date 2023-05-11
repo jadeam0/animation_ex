@@ -1,5 +1,6 @@
 body {
-    background-color: #1F51FF;
+    /* background-color: #1F51FF; */
+    background-image: linear-gradient(to bottom right, #1f51ff, #7d88ac);
 }
 
 
@@ -47,10 +48,31 @@ li a:hover {
 /* animation 1 */
 
 .anima-1 img {
+    position: relative;
+    overflow: hidden;
     width: 100%;
-    height: 600px;
+    height: 550px;
     align-items: center;
+    margin-top: 20px;
 }
+
+.slide {
+  position: absolute;
+  animation-name: slidein;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-fill-mode: both;
+  animation-play-state: running;
+}
+
+@keyframes slidein {
+    100% { left: 0; }
+}
+
+
 
 /* animation: 3s ease-in 1s infinite reverse both  
 running slidein;
